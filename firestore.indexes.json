@@ -1,0 +1,23 @@
+{
+  "indexes": [
+    {
+      "collectionId": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "published",
+          "mode": "ASCENDING"
+        },
+        {
+          "fieldPath": "creationTime",
+          "mode": "DESCENDING"
+        },
+        {
+          "fieldPath": "topicName",
+          "mode": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

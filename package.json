@@ -1,0 +1,19 @@
+{
+  "name": "howcodingworksbackend",
+  "version": "1.0.0",
+  "description": "Backend of how coding works",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "firebase-admin": "^8.12.1",
+    "firebase-functions": "^3.6.1"
+  },
+  "scripts": {
+    "serve": "firebase serve",
+    "deploy": "firebase deploy",
+    "deploy functions": "firebase deploy --only functions"
+  },
+  "author": "Mihir Rane",
+  "license": "ISC"
+}
